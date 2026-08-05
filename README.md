@@ -13,7 +13,7 @@ encrypted secret storage, Room database, and a foreground polling service.
 - `service/BotPollingService.kt` — foreground service running the long-polling loop with backoff
 - `ui/MainActivity.kt` + layout — minimal working dashboard: paste token, save, start/stop bot
 
-## What's NOT yet built out (per the original spec — you or Claude Code should extend this)
+## What's NOT yet built out
 - Auto Replies screen UI (add/edit/delete rules) — the data layer is ready, needs a RecyclerView screen
 - AI Settings screen UI — SecureStore fields already exist, needs a form screen
 - Conversation Logs screen UI — DAO ready, needs a RecyclerView + search
