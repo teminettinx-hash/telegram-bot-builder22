@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.BotBuilder" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/md_primary</item>
+        <item name="colorOnPrimary">@color/md_on_primary</item>
+        <item name="android:windowBackground">@color/md_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="RoundedFab" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>
